@@ -1,0 +1,56 @@
+GIT
+  remote: git://github.com/uglyog/pact.git
+  revision: 49e8b73da3ccc7dc08f0b9ac40851e421a4c1039
+  specs:
+    pact (1.0.9)
+      awesome_print (~> 1.1.0)
+      find_a_port (~> 1.0.1)
+      hashie (~> 2.0)
+      json
+      rack-test (~> 0.6.2)
+      randexp (~> 0.1.7)
+      rspec (~> 2.12)
+      thin
+      thor
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.1.0)
+    daemons (1.1.9)
+    diff-lcs (1.2.4)
+    eventmachine (1.0.3)
+    find_a_port (1.0.1)
+    hashie (2.0.5)
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    json (1.8.0)
+    multi_json (1.7.7)
+    multi_xml (0.5.4)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.1.0)
+    randexp (0.1.7)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.5)
+    rspec-expectations (2.14.2)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.3)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.18.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  pact!
+  rake
